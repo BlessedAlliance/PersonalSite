@@ -11,8 +11,10 @@ Enabled modules:
 
 
 
+--------------------------
+
 Installation
-------------
+=============
 
 Using Composer (recommended)
 ----------------------------
