@@ -7,7 +7,7 @@ A skeleton application that will help you develop more robust web-based applicat
 Enabled modules:
 ----------
 
-#### [AimWorld](https://github.com/BlessedAlliance/AimWorld) [![Latest Stable Version](https://poser.pugx.org/blessed-alliance/aim-world-component/v/stable.svg)](https://packagist.org/packages/blessed-alliance/aim-world-component) [![Total Downloads](https://poser.pugx.org/blessed-alliance/aim-world-component/downloads.svg)](https://packagist.org/packages/blessed-alliance/aim-world-component)  [![License](https://poser.pugx.org/blessed-alliance/aim-world-component/license.svg)](https://packagist.org/packages/blessed-alliance/aim-world-component) 
+#### [AIM World](https://github.com/BlessedAlliance/AimWorld) [![Latest Stable Version](https://poser.pugx.org/blessed-alliance/aim-world-component/v/stable.svg)](https://packagist.org/packages/blessed-alliance/aim-world-component) [![Total Downloads](https://poser.pugx.org/blessed-alliance/aim-world-component/downloads.svg)](https://packagist.org/packages/blessed-alliance/aim-world-component)  [![License](https://poser.pugx.org/blessed-alliance/aim-world-component/license.svg)](https://packagist.org/packages/blessed-alliance/aim-world-component) 
 
 
 
