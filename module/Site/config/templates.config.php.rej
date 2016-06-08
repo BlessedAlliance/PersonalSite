@@ -1,0 +1,20 @@
+--- module/Site/config/templates.config.php
++++ PHP_CodeSniffer
+@@ -12,7 +12,7 @@
+             'site/layout'               => __DIR__ . '/../view/layout/layout.phtml',
+             'template/footer'           => __DIR__ . '/../view/layout/partial/footer.phtml',
+             'template/navigation'       => __DIR__ . '/../view/layout/partial/navigation.phtml',
+-            'template/breadcrumbs'      => __DIR__ . '/../view/layout/partial/breadcrumbs.phtml',            
++            'template/breadcrumbs'      => __DIR__ . '/../view/layout/partial/breadcrumbs.phtml',
+             'error/404'                 => __DIR__ . '/../view/error/404.phtml',
+             'error/index'               => __DIR__ . '/../view/error/index.phtml',
+         ],
+@@ -33,7 +33,7 @@
+             'site/layout'               => __DIR__ . '/../view/layout/layout.phtml',
+             'template/footer'           => __DIR__ . '/../view/layout/partial/footer.phtml',
+             'template/navigation'       => __DIR__ . '/../view/layout/partial/navigation.phtml',
+-            'template/breadcrumbs'      => __DIR__ . '/../view/layout/partial/breadcrumbs.phtml',            
++            'template/breadcrumbs'      => __DIR__ . '/../view/layout/partial/breadcrumbs.phtml',
+             'error/404'                 => __DIR__ . '/../view/error/404.phtml',
+             'error/index'               => __DIR__ . '/../view/error/index.phtml',
+         ],
