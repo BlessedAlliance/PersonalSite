@@ -29,14 +29,14 @@ namespace Site\Controller;
 use Zend\Mvc\Controller\AbstractActionController;
 use Zend\View\Model\ViewModel;
 
-class IndexController extends AbstractActionController
+class PageController extends AbstractActionController
 {
     public function indexAction()
     {
         return new ViewModel($this->getEvent()->getViewModel()->getVariables());
     }
 
-    public function contactAction()
+    public function contactUsAction()
     {
         return new ViewModel($this->getEvent()->getViewModel()->getVariables());
     }

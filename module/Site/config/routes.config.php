@@ -15,8 +15,18 @@ return [
         'options'   => [
             'route'     => '/',
             'defaults'  => [
-                'controller'    => Controller\IndexController::class,
+                'controller'    => Controller\PageController::class,
                 'action'        => 'index'
+            ]
+        ]
+    ],
+    'contact-us' => [
+        'type'      => Literal::class,
+        'options'   => [
+            'route'     => '/contact-us',
+            'defaults'  => [
+                'controller'    => Controller\PageController::class,
+                'action'        => 'contact-us'
             ]
         ]
     ]
