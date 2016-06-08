@@ -2,7 +2,7 @@
     "name": "blessed-alliance/personal-site-skeleton-app",
     "description": "Initial skeleton application structure",
     "license": "MIT",
-    "type": "project",    
+    "type": "project",
     "homepage": "http://www.aimworld.me/",
     "authors": [
         {
@@ -17,7 +17,7 @@
         "evandotpro/edp-module-layouts": "dev-master",
         "zendframework/zend-component-installer": "^1.0 || ~0.2",
         "zendframework/zend-expressive-zendviewrenderer": "^1.1",
-        "blessed-alliance/aim-world-component": "^1.0 || ~0.1"
+        "blessed-alliance/aim-world-component": "^1.0 || dev-develop"
     },
     "require-dev": {
         "zendframework/zend-test": "^3.0",
