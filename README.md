@@ -10,7 +10,7 @@ A skeleton application that will help you develop more robust web-based applicat
 Submodules
 ----------
 
-#### [AimWorld](https://github.com/BlessedAlliance/AimWorld) [![Latest Stable Version](https://poser.pugx.org/blessed-alliance/aim-world-component/v/stable.svg)](https://packagist.org/packages/blessed-alliance/aim-world-component) [![Total Downloads](https://poser.pugx.org/blessed-alliance/aim-world-component/downloads.svg)](https://packagist.org/packages/blessed-alliance/aim-world-component) [![Latest Unstable Version](https://poser.pugx.org/blessed-alliance/aim-world-component/v/unstable.svg)](https://packagist.org/packages/blessed-alliance/aim-world-component) [![License](https://poser.pugx.org/blessed-alliance/aim-world-component/license.svg)](https://packagist.org/packages/blessed-alliance/aim-world-component) 
+#### [AimWorld](https://github.com/BlessedAlliance/AimWorld) [![Latest Stable Version](https://poser.pugx.org/blessed-alliance/aim-world-component/v/stable.svg)](https://packagist.org/packages/blessed-alliance/aim-world-component) [![Total Downloads](https://poser.pugx.org/blessed-alliance/aim-world-component/downloads.svg)](https://packagist.org/packages/blessed-alliance/aim-world-component)  [![License](https://poser.pugx.org/blessed-alliance/aim-world-component/license.svg)](https://packagist.org/packages/blessed-alliance/aim-world-component) 
 
 Generic "Aim World" module which includes initial configurations like application name, site URL and company/developer name. Learn more about its features [here](https://github.com/BlessedAlliance/AimWorld#features).
 
