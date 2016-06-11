@@ -14,10 +14,9 @@
     "require": {
         "php": "^5.6 || ^7.0",
         "roave/security-advisories": "dev-master",
-        "evandotpro/edp-module-layouts": "dev-master",
         "zendframework/zend-component-installer": "^1.0 || ~0.2",
-        "zendframework/zend-expressive-zendviewrenderer": "^1.1",
-        "blessed-alliance/aim-world-component": "^1.0 || dev-develop"
+        "codingmatters/site-module-ini": "^1.0 || ~0.6",
+        "blessed-alliance/aim-world-component": "^1.0 || ~0.2"
     },
     "require-dev": {
         "zendframework/zend-test": "^3.0",
@@ -35,13 +34,10 @@
             "SiteTest\\": "module/Site/test/"
         }
     },
-    "scripts": {
-        "post-root-package-install": [
-            "git submodule init",
-            "git submodule update"
-        ],
-        "post-install-cmd": [
-            "@install-ui-component"
+    "scripts": {        
+        "post-install-cmd": [            
+            "@install-ui-component",
+            "@include-module-config"
         ],
         "post-update-cmd": [
             "@update-ui-component"
@@ -76,6 +72,9 @@
             "cp -ar bower_components/components-font-awesome public/assets/font-awesome",
             "cp -ar bower_components/components-bootstrap public/assets/bootstrap",
             "rm -rf bower_components"
+        ],
+        "include-module-config": [
+            "cp -au module/Application/config/autoload/app-settings.local.php-dist config/autoload/app-settings.local.php"
         ]
     }
 }
