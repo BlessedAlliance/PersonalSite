@@ -40,7 +40,8 @@
             "@include-module-config"
         ],
         "post-update-cmd": [
-            "@update-ui-component"
+            "@update-ui-component",
+            "@include-module-config"
         ],
         "check": [
             "@cs",
