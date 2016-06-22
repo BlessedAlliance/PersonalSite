@@ -1,0 +1,13 @@
+.carousel-caption section {
+    
+}
+
+.carousel-caption h1 {
+    color: greenyellow;
+    font-weight: bolder;
+}
+
+.carousel-inner .item img {
+    height: 650px;
+    position: inherit;
+}
