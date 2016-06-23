@@ -24,10 +24,15 @@
  * THE SOFTWARE.
  */
 
-$settings = [
-    'user_id' => "<your-id-here>",
-];
+namespace Application\Controller;
 
-return [
-    'aim_world_settings' => $settings
-];
+use Zend\Mvc\Controller\AbstractActionController;
+use Zend\View\Model\ViewModel;
+
+class PageController extends AbstractActionController
+{
+    public function indexAction()
+    {
+        return new ViewModel();
+    }
+}

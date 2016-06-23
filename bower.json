@@ -11,6 +11,7 @@
     "license": "MIT",
     "directory": "public/assets",
     "dependencies": {
+        "aim-world-ui-dependencies": "^1.0 || ^0.1",
         "jquery": "^2.1",
         "jquery-ui": "^1.11",
         "components-font-awesome": "^4.2",

@@ -13,14 +13,26 @@ use Zend\Router\Http\Literal;
 use Application\Controller;
 
 return [
-    'application' => [
+    'home' => [
         'type'      => Literal::class,
         'options'   => [
             'route'     => '/',
             'defaults'  => [
-                'controller'    => Controller\IndexController::class,
+                'controller'    => Controller\PageController::class,
                 'action'        => 'index'
             ]
+        ]
+    ],
+
+    'about' => [
+        'options'   => [
+            'route'     => '/aim-world',
+        ]
+    ],
+
+    'contact-us' => [
+        'options'   => [
+            'route'     => '/our-team',
         ]
     ]
  ];

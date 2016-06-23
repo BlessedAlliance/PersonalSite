@@ -28,7 +28,7 @@ $settings = [
     /**
      * Application Name
      */
-    'application_name' => 'Aim World',
+    'application_name' => 'AIM World',
 
     /**
      * Organization Info

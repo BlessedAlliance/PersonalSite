@@ -13,24 +13,23 @@
     ],
     "require": {
         "php": "^5.6 || ^7.0",
-        "roave/security-advisories": "dev-master",
-        "zendframework/zend-component-installer": "^1.0 || ~0.2",
-        "blessed-alliance/aim-world-component": "dev-develop"
+        "roave/security-advisories": "dev-master",        
+        "blessed-alliance/aim-world-component": "^1.0 || ^0.3"
     },
     "require-dev": {
+        "zendframework/zend-component-installer": "^1.0 || ~0.2",
         "zendframework/zend-test": "^3.0",
         "squizlabs/php_codesniffer": "^2.3",
         "phpbench/phpbench": "^0.11"
     },
     "autoload": {
-        "psr-4": {
-            "Site\\": "module/Site/src/",
+        "psr-4": {           
             "Application\\": "module/Application/src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "SiteTest\\": "module/Site/test/"
+            "ApplicationTest\\": "module/Application/test/"
         }
     },
     "scripts": {        
@@ -50,11 +49,13 @@
         "cs-fix": "phpcbf module",
         "test": "phpunit",
         "install-ui-component": [
+            "rm -rf public/assets/aim-world",
             "rm -rf public/assets/jquery",
             "rm -rf public/assets/jquery-ui",
             "rm -rf public/assets/font-awesome",
             "rm -rf public/assets/bootstrap",
             "bower install",
+            "cp -ar bower_components/aim-world-ui-dependencies public/assets/aim-world",
             "cp -ar bower_components/jquery/dist public/assets/jquery",
             "cp -ar bower_components/jquery-ui public/assets/jquery-ui",
             "cp -ar bower_components/components-font-awesome public/assets/font-awesome",
@@ -62,11 +63,13 @@
             "rm -rf bower_components"
         ],
         "update-ui-component": [
+            "rm -rf public/assets/aim-world",
             "rm -rf public/assets/jquery",
             "rm -rf public/assets/jquery-ui",
             "rm -rf public/assets/font-awesome",
             "rm -rf public/assets/bootstrap",
             "bower update",
+            "cp -ar bower_components/aim-world-ui-dependencies public/assets/aim-world",
             "cp -ar bower_components/jquery/dist public/assets/jquery",
             "cp -ar bower_components/jquery-ui public/assets/jquery-ui",
             "cp -ar bower_components/components-font-awesome public/assets/font-awesome",
@@ -74,7 +77,8 @@
             "rm -rf bower_components"
         ],
         "include-module-config": [
-            "cp -au module/Application/config/autoload/app-settings.local.php-dist config/autoload/app-settings.local.php"
+            "cp -au module/Application/config/autoload/app-settings.local.php-dist config/autoload/app-settings.local.php",
+            "cp -au vendor/blessed-alliance/aim-world-component/config/autoload/aim-world.local.php.dist config/autoload/aim-world.local.php"
         ]
     }
 }
