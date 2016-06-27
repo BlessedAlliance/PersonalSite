@@ -83,7 +83,7 @@
         ],
         "include-module-config": [
             "cp -au module/Application/config/autoload/app-settings.local.php-dist config/autoload/app-settings.local.php",
-            "cp -au vendor/blessed-alliance/aim-world-component/config/autoload/aim-world.local.php.dist config/autoload/aim-world.local.php"
+            "cp -au module/Application/config/autoload/aim-world.local.php.dist config/autoload/aim-world.local.php"
         ]
     }
 }
